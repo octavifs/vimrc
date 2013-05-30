@@ -17,4 +17,10 @@ It also needs to be compiled, so:
     ruby extconf.rb
     make
 
+## Set up
+    git clone https://github.com/octavifs/vimrc.git
+    cd vimrc
+    ln -s $(pwd)/.vimrc ~/.vimrc
+    ln -s $(pwd)/.vim ~/.vim
+
 And I think this is all. Enjoy.
