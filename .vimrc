@@ -6,6 +6,10 @@ imap jk <Esc>
 let mapleader=","
 colorscheme Monokai 
 set number
+set ruler
+set foldenable
+"Automatically change current directory to that of the file in the buffer  
+autocmd BufEnter * cd %:p:h
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Text, tab and indent related
 " """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -52,3 +56,6 @@ map <C-j> <C-W>j
 map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
+
+"Taglist panel shortcut. Toggle panel with leader-t
+nnoremap <leader>t :TlistToggle <CR>
