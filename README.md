@@ -27,5 +27,6 @@ It also needs to be compiled, so:
     cd bundle
     git clone https://github.com/wincent/Command-T.git
     git clone https://github.com/sickill/vim-monokai.git
+    git clone git://github.com/jiangmiao/auto-pairs.git
 
 And I think this is all. Enjoy.

@@ -57,5 +57,5 @@ map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
 
-"Taglist panel shortcut. Toggle panel with leader-t
-nnoremap <leader>t :TlistToggle <CR>
+"Taglist panel shortcut. Toggle panel with leader-r
+nnoremap <leader>r :TlistToggle <CR>
