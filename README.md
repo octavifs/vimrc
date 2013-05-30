@@ -23,4 +23,9 @@ It also needs to be compiled, so:
     ln -s $(pwd)/.vimrc ~/.vimrc
     ln -s $(pwd)/.vim ~/.vim
 
+## Set Up plugins
+    cd bundle
+    git clone https://github.com/wincent/Command-T.git
+    git clone https://github.com/sickill/vim-monokai.git
+
 And I think this is all. Enjoy.
