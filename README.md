@@ -1,12 +1,26 @@
 vimrc
 =====
-
 Personal .vimrc config. Nothing fancy
 
 ## Plugins and stuff
 Using Pathogen to manage plugins.
 
 ## Dependencies
+One liner setup:
+
+    git clone https://github.com/octavifs/vimrc
+    apt-get install git make gcc ruby ruby-dev exuberant-ctags
+    cd vimrc
+    ln -s $(pwd)/.vimrc ~/.vimrc
+    ln -s $(pwd)/.vim ~/.vim
+    cd .vim/bundle
+    git clone https://github.com/wincent/Command-T.git
+    git clone https://github.com/sickill/vim-monokai.git
+    git clone https://github.com/jiangmiao/auto-pairs.git
+    cd Command-T/ruby/command-t
+    ruby extconf.rb
+    make
+
 CommandT needs:
     
     ruby ruby-dev

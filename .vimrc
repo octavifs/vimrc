@@ -5,6 +5,11 @@ filetype plugin indent on
 imap jk <Esc>
 let mapleader=","
 colorscheme Monokai 
+" Enable colors for terminals that don't announce them"
+set t_Co=256
+" Share system clipboard with Vim (7.3.74+)"
+set clipboard=unnamed
+set mouse=a
 set number
 set ruler
 set foldenable
