@@ -13,8 +13,6 @@ set mouse=a
 set number
 set ruler
 set foldenable
-"Automatically change current directory to that of the file in the buffer  
-autocmd BufEnter * cd %:p:h
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Text, tab and indent related
 " """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -64,3 +62,5 @@ map <C-l> <C-W>l
 
 "Taglist panel shortcut. Toggle panel with leader-r
 nnoremap <leader>r :TlistToggle <CR>
+" Set .md as markdown extension (enables syntax highlighting)
+au BufRead,BufNewFile *.md set filetype=markdown
