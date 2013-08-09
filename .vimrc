@@ -27,10 +27,12 @@ set shiftwidth=4
 set tabstop=4
 "
 set ai "Auto indent
-set si "Smart indent
+set nosmartindent
 "
 ""Always show current position
 set ruler
+" " Mark 80 characters column with a marker
+set colorcolumn=80
 " Ignore case when searching
 set ignorecase
 "

@@ -9,7 +9,8 @@ Using Pathogen to manage plugins.
 One liner setup:
 
     git clone https://github.com/octavifs/vimrc
-    apt-get install git make gcc ruby ruby-dev exuberant-ctags
+    apt-get install git make gcc ruby ruby-dev exuberant-ctags pyflakes vim-nox \
+    ruby ruby-dev
     cd vimrc
     ln -s $(pwd)/.vimrc ~/.vimrc
     ln -s $(pwd)/.vim ~/.vim
@@ -17,6 +18,7 @@ One liner setup:
     git clone https://github.com/wincent/Command-T.git
     git clone https://github.com/sickill/vim-monokai.git
     git clone https://github.com/jiangmiao/auto-pairs.git
+    git clone https://github.com/kevinw/pyflakes-vim.git
     cd Command-T/ruby/command-t
     ruby extconf.rb
     make
