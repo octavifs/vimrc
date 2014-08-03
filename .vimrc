@@ -4,7 +4,7 @@ syntax on
 filetype plugin indent on
 imap jk <Esc>
 let mapleader=","
-colorscheme Monokai 
+colorscheme monokai 
 " Enable colors for terminals that don't announce them"
 set t_Co=256
 " Share system clipboard with Vim (7.3.74+)"
